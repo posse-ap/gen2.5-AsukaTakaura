@@ -1,0 +1,40 @@
+.contents{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  border: 0;
+}
+ul {
+	list-style-type: none;
+  width: 80%;
+} 
+.button {
+	background-color: #FFFFFF;
+	color: #031931;
+	display: block;
+	width: 100%;
+	padding: 13px;
+  margin:10px 0;
+	text-decoration: none;
+  border:1px solid #ebebeb;
+  font-weight: 600;
+  box-shadow: 0 3px 2px -2px #F2F2F2;
+  /* font-family: */
+
+}
+
+.midashi{
+
+  display: inline-block;
+  border-bottom: 10px;
+ 
+}
+
+.midashi::after {
+  content: '';
+  width: 110px;
+  height: 2px;
+  display: block;
+  background-color: #01AB36;
+}
